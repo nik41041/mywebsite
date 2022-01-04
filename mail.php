@@ -19,7 +19,6 @@ if(isset($_POST['submit'])){
 
   try {
     //Server settings
-    $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'thisiscontactme.noreply@gmail.com';                     //SMTP username
