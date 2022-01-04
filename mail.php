@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
     $mail->Username   = 'thisiscontactme.noreply@gmail.com';                     //SMTP username
     $mail->Password   = 'Hey12345';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
     $mail->setFrom('thisiscontactme.noreply@gmail.com', 'Portfolio Website');
