@@ -1025,7 +1025,7 @@ textarea.input {
 /* responivness */
 
 
-@media (max-width:360px){
+@media (max-width:720px){
  
   
   main{
@@ -1128,7 +1128,7 @@ margin-left: 0;
   .nik h2{
     position: absolute;
     transform: translate(7% , -70%);
-    font-size: 1.9rem;
+    font-size: 1.8rem;
     font-family: 'Poppins',sans-serif;
     padding: 2rem;
   }
